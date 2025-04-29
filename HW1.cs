@@ -21,7 +21,7 @@
                 else if (ans < bingo) 
                 { 
                     min = ans + 1;
-                    if (max - min <= 1)
+                    if (max - min == 0)
                     {
                        Console.WriteLine("GG.");
                         break;
@@ -34,7 +34,7 @@
                 else if (ans > bingo)
                 {
                     max = ans - 1;
-                    if (max - min <= 1)
+                    if (max - min == 0)
                     {
                         Console.WriteLine("GG.");
                         break;
